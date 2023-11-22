@@ -40,6 +40,7 @@ main {
   align-items: center;
 }
 
+
 .right {
   width: 52rem;
   font-size: 2rem;
@@ -116,4 +117,27 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media (max-width:800px){
+  .guess {
+    width: 15rem;
+  }
+  .btn{
+    font-size: 1.5rem;
+  }
+  .between{
+    font-size: 1rem
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .left {
+    width: 30rem;
+  }
+  .right{
+    font-size: 1.2rem;
+    width: 35rem;
+  }
+
 }
